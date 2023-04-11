@@ -2,10 +2,10 @@
 <NormalInvitation xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Version>1.1</Version>
   <Workshop>
-    <ID>NewPackage</ID>
-    <Title />
+    <ID>GenericFightVsEnemy1</ID>
+    <Title>generic fight</Title>
     <Description />
-    <Tag />
+    <Tag>Invitation</Tag>
     <PreviewImage />
   </Workshop>
   <InvitationFile>
