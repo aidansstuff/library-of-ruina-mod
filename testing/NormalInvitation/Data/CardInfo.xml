@@ -51,4 +51,76 @@
     <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
     <MaxNum>150</MaxNum>
   </Card>
+  <Card ID="3">
+    <Name>to stop the enemy</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>endurance2</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="10" Dice="20" Type="Def" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="badaCardRemake" ActionScript="" Desc="" />
+      <Behaviour Min="5" Dice="15" Type="Def" Detail="Guard" Motion="E" MotionDefault="N" EffectRes="" Script="" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>1</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>50</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="4">
+    <Name>to help a friend</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="2" Affection="One" EmotionLimit="0" />
+    <Script>energy1</Script>
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="1" Dice="15" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="charge2pw" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="15" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="energy1pw" ActionScript="" Desc="" />
+      <Behaviour Min="1" Dice="15" Type="Def" Detail="Evasion" Motion="E" MotionDefault="N" EffectRes="" Script="drawCard1pw" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>1</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
+  <Card ID="5">
+    <Name>even if its not enough</Name>
+    <TextId>-1</TextId>
+    <Artwork />
+    <Rarity>Common</Rarity>
+    <Spec Range="Near" Cost="0" Affection="One" EmotionLimit="0" />
+    <Script />
+    <ScriptDesc />
+    <BehaviourList>
+      <Behaviour Min="3" Dice="4" Type="Standby" Detail="Guard" Motion="G" MotionDefault="N" EffectRes="" Script="yujin" ActionScript="" Desc="" />
+    </BehaviourList>
+    <Chapter>1</Chapter>
+    <SpecialEffect />
+    <SkinChange />
+    <SkinChangeType>EGO</SkinChangeType>
+    <SkinHeight>0</SkinHeight>
+    <MapChange />
+    <Priority>0</Priority>
+    <PriorityScript />
+    <Category>None</Category>
+    <MaxCooltimeForEgo>9</MaxCooltimeForEgo>
+    <MaxNum>150</MaxNum>
+  </Card>
 </DiceCardXmlRoot>

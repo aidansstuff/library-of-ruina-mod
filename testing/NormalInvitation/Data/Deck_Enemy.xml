@@ -9,4 +9,12 @@
     <Card>2</Card>
     <Card>2</Card>
   </Deck>
+  <Deck ID="2">
+    <Card>5</Card>
+    <Card>5</Card>
+    <Card>5</Card>
+    <Card>5</Card>
+    <Card>5</Card>
+    <Card>5</Card>
+  </Deck>
 </DeckXmlRoot>
